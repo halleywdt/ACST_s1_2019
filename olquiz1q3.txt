@@ -1,0 +1,11 @@
+#11.2
+egrep '^[^ ]+ [^ ]+ [^ ]+$' test.txt
+
+#11.3
+egrep -e '-[0-9]+' test.txt
+
+#11.4
+egrep '\s{1,}+[0-9]+\s{1,}|\s{1,}+-[0-9]+\s{1,}' test.txt
+
+#11.6
+egrep 'hydrogenase' test.txt | egrep -v 'dehydrogenase'
