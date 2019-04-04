@@ -1,0 +1,9 @@
+uniq -u tutes.txt
+
+The result is:
+[Tutorial_1|TUE|04:00PM|C06]
+[Tutorial_1|WED|10:00AM|C10]
+[Tutorial_1|WED|05:00PM|C15]
+[Tutorial_1|WED|04:00PM|C14]
+[Tutorial_1|WED|10:00AM|C09]
+[Tutorial_1|WED|04:00PM|C13]
